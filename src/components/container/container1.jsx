@@ -15,7 +15,7 @@ function container1() {
         <ul className="pl-5 text-lg text-white list-none">
             <li>Hei! Mitt navn er Poul André Røinaas, og jeg er på utkikk etter en frontend jobb. </li>
             <li>OLE DOLE DOFFEN</li>
-            <li>FYLLE UT MED MER TEKST </li>
+            <li>Her kommer mer info til linker - github og linkedIN</li>
         </ul>
     </div>
 </section>
