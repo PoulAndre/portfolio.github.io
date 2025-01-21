@@ -14,7 +14,7 @@ function container1() {
         <h3 className="text-white text-2xl font-bold mb-4">Om meg</h3>
         <ul className="pl-5 text-lg text-white list-none">
             <li>Hei! Mitt navn er Poul André Røinaas, og jeg er på utkikk etter en frontend jobb. </li>
-            <li>FYLLE UT MED MER TEKST </li>
+            <li>OLE DOLE DOFFEN</li>
             <li>FYLLE UT MED MER TEKST </li>
         </ul>
     </div>
