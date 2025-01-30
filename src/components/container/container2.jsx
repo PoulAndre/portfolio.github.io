@@ -1,30 +1,26 @@
 import React from 'react'
 
-function container2() {
+
+function container1() {
   return (
-    <section id="container2" className="shadow-lg flex items-center justify-start h-auto pt-20 pb-20 bg-zinc-600 p-8 flex-col sm:flex-row overflow-x-hidden">
+    
+    <section id="container1"className="shadow-lg flex flex-col items-center justify-center h-auto bg-slate-400 p-8 max-w-full">
+    <div className="w-full sm:w-1/2 mb-8 sm:mb-0 flex justify-center mt-48 max-w-full">
+        
+    </div>
+    
+    <div className="w-full sm:w-1/2 text-center bg-gradient-to-r from-slate-400 via-gray-500 to-slate-400 rounded-lg">
+        <h2 className="text-white text-5xl font-bold mb-6">Om Meg</h2>
+        <ul className="pl-5 text-lg text-white list-none">
+            <li className="pb-2 font-extralight text-xl text-white">Mitt navn er Poul André Grevsen Røinaas, jeg er 24 år gammel og bor i Kristiansand</li>
+            <li className="pb-2 font-extralight text-xl text-white">Akkurat nå tar jeg opp et fag hjemmefra da jeg studerte It og Informasjonssystemer i Bø</li>
+            
+        </ul>
+    </div>
+</section>
 
-                <div className="w-full sm:w-1/2 pl-8 mt-56">
-                    <h2 className="text-gray-300 text-3xl font-bold mb-4">Kunnskap</h2>
-                    <ul className="items-center flex space-x-12 list-none pl-5 text-lg text-gray-300">
-                      <div className="shadow-slate-400 flex justify-center rounded-md bg-slate-200 h-20 w-full items-center">
-                        <li className="text-black">Kalkulartor</li>
-                        </div>
-                        <div className="shadow-slate-400 flex justify-center rounded-md bg-slate-200 h-20 w-full items-center">
-                        <li className="text-black">TestSide</li>
-                        </div>
-                        <div className="shadow-slate-400 flex justify-center rounded-md bg-slate-200 h-20 w-full items-center">
-                        <li className="text-black">Noe annet</li>
-                        </div>
-                    </ul>
-                </div>
 
-                <div className="w-full sm:w-1/2 mb-8 sm:mb-0 pl-20">
-                    
-                    </div>
-
-        </section>
   )
 }
 
-export default container2
+export default container1
